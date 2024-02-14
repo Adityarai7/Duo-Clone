@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    user-select: none;
+    /* color: white; */
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+#main{
+    background-color: #0f0d0d;
+    width: 100%;
+}
+
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 0 3vw;
+    width: 100%;
+    height: 80px;
+}
+
+#nav-mid{
+    display: flex;
+    gap: 20px;
+}
+
+#nav-mid>a{
+    transition: all ease 0.2s;
+}
+
+#nav-mid>a:hover{
+    border-bottom: 1px white solid;
+    transform: translateY(-2px);
+}
+
+#nav-logo{
+    width:40px;
+}
+
+#circle{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#page-1{
+    padding-top: 8vw;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    color: white;
+}
+
+#heading-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    font-size: 3.5vw;
+}
+#heading-1>h1{
+    font-family: "Tomato Grotesk";
+    line-height: 1;
+    font-weight: 500;
+}
+
+#heading-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#heading-2>h3{
+    font-family: "Tomato Grotesk";
+    font-size: 1.3vw;
+    font-weight: 300;
+    width: 34%;
+    margin: 3.5vw 0; 
+}
+
+#video-1{
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#page-2{
+    width: 100%;
+    /* min-height: 80vh; */
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid #3d0a0a;
+    padding-bottom: 100px;
+}
+
+#page-2>h1{
+    padding: 3vw 0 0 6vw;
+    font-size: 10vw;
+    font-weight: 400;
+    /* color: black; */
+}
+
+.p2-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* background-color: orange; */
+    width: 100%;
+    height: 60vh;
+    padding: 0 6vw;
+}
+
+#p2-left{
+    width: 30%;
+    /* background-color: red; */
+}
+#p2-left>h1{
+    font-weight: 500;
+    /* width: 50%; */
+    font-size: 3vw;
+    /* color: black; */
+}
+
+#p2-right{
+    width: 30%;
+    /* background-color: orange; */
+}
+#p2-right>h4{
+    font-weight: 300;
+    font-size: 1.8vw;
+    /* color: black; */
+}
+#p2-btn{
+    background-color:#e8bcf6;
+    /* color: black; */
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px 0;
+    border-radius: 10vw;
+}
+
+#p2-btn:hover{
+    background-color: #ebabfe;
+}
+
+#page-3{
+    display: flex;
+    justify-content: space-between;
+    /* min-height: 230vh; */
+    background-color: white;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#p3-left>h1{
+    padding:8vw;
+    font-family: "Tomato Grotesk";
+    font-size: 6vw;
+    font-weight: 400;
+}
+#p3l-media-1 h2,h3{
+    margin-left: 8vw;
+    font-weight: 300;
+}
+
+#p3l-media-1>img{
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+#p3l-media-2{
+    margin-left: 16vw;
+}
+
+#p3l-media-2 h2,h3{
+    margin-left: 8vw;
+    font-weight: 300;
+}
+
+#p3l-media-2>video{
+    margin-top: 5vw;
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+#p3r-media-1{
+    margin: 10vw 0;
+}
+
+#p3r-media-1>video{
+    width: 50vw;
+}
+
+#p3r-media-1>h2,h4{
+    font-weight: 300;
+}
+
+#p3r-media-2{
+    margin: 10vw 0;
+}
+
+#p3r-media-2>img{
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+#p3r-media-2>h2{
+    margin-left: 8vw;
+    font-weight: 300;
+}
+#p3r-media-2>h4{
+    margin-left: 8vw;
+    font-weight: 300;
+}
+
+#p3r-bottom{
+    width: 50%;
+    margin-left: 10vw;
+}
+
+#p3r-bottom button{
+    width: 8vw;
+    height: 2vw;
+    margin: 10px 0;
+    border-radius: 5vw;
+    border: none;
+    background-color: #deb2f2;
+    padding: 5px 10px;
+    color: white;
+}
+
+.line{
+    border-bottom: 2px dotted black ;
+    margin: 5vw 0;
+}
+
+#page-4{
+    min-height: 30vh;
+    width: 100%;
+}
